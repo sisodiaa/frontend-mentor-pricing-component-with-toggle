@@ -11,34 +11,119 @@
   <link rel="stylesheet" type="text/css" href="css/style.css" />
 </head>
 <body>
+  <main class="component">
+    <h1 class="component__heading">
+      Our Pricing
+    </h1>
 
-  Our Pricing
-  Annually
-  Monthly
+    <section class="component__toggle">
+      <div class="component__option">
+        Annually
+      </div>
 
-  Basic
-  &dollar;19.99
-  &dollar;199.99
-  500 GB Storage
-  2 Users Allowed
-  Send up to 3 GB
-  Learn More
+      <div class="component__slider">
+        <form>
+          <input type="checkbox" id="component__toggler" name="component__toggler" class="component__toggler">
+        </form>
+      </div>
 
-  Professional
-  &dollar;24.99
-  &dollar;249.99
-  1 TB Storage
-  5 Users Allowed
-  Send up to 10 GB
-  Learn More
+      <div class="component__option">
+        Monthly
+      </div>
+    </section>
 
-  Master
-  &dollar;39.99
-  &dollar;399.99
-  2 TB Storage
-  10 Users Allowed
-  Send up to 20 GB
-  Learn More
+    <ul class="component__package-list">
+      <li class="component__package-item">
+        <div class="component__package">
+          <h2 class="component__package-name">
+            Basic
+          </h2>
+
+          <ul class="component__package-features-list">
+            <li class="component__package-feature">
+              <h3 class="component__package-price">
+                <span class="component__package-price--monthly">&dollar;19.99</span>
+                <span class="component__package-price--yearly">&dollar;199.99</span>
+              </h3>
+            </li>
+            <li class="component__package-feature">
+              500 GB Storage
+            </li>
+            <li class="component__package-feature">
+              2 Users Allowed
+            </li>
+            <li class="component__package-feature">
+              Send up to 3 GB
+            </li>
+          </ul>
+
+          <div class="component__package-cta">
+            Learn More
+          </div>
+        </div>
+      </li>
+
+      <li class="component__package-item">
+        <div class="component__package">
+          <h2 class="component__package-name">
+            Professional
+          </h2>
+
+          <ul class="component__package-features-list">
+            <li class="component__package-feature">
+              <h3 class="component__package-price">
+                <span class="component__package-price--monthly">&dollar;24.99</span>
+                <span class="component__package-price--yearly">&dollar;249.99</span>
+              </h3>
+            </li>
+            <li class="component__package-feature">
+              1 TB Storage
+            </li>
+            <li class="component__package-feature">
+              5 Users Allowed
+            </li>
+            <li class="component__package-feature">
+              Send up to 10 GB
+            </li>
+          </ul>
+
+          <div class="component__package-cta">
+            Learn More
+          </div>
+        </div>
+      </li>
+
+      <li class="component__package-item">
+        <div class="component__package">
+          <h2 class="component__package-name">
+            Master
+          </h2>
+
+          <ul class="component__package-features-list">
+            <li class="component__package-feature">
+              <h3 class="component__package-price">
+                <span class="component__package-price--monthly">&dollar;39.99</span>
+                <span class="component__package-price--yearly">&dollar;399.99</span>
+              </h3>
+            </li>
+            <li class="component__package-feature">
+              2 TB Storage
+            </li>
+            <li class="component__package-feature">
+              10 Users Allowed
+            </li>
+            <li class="component__package-feature">
+              Send up to 20 GB
+            </li>
+          </ul>
+
+          <div class="component__package-cta">
+            Learn More
+          </div>
+        </div>
+      </li>
+    </ul>
+  </main>
   
   <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
